@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Portfolio | André Rapela</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b3036ce64.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="px-4 py-5 text-center text-secondary hero-full-height">
+        <div class="hero-content">
+
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col">
+                        <img src="image/foto de perfil.jpg" alt="Profile Picture" class="ImageB">
+                    </div>
+                    <div class="col">
+                        <h1 class="display-1 text-center">Hi, I'm André!</h1>
+                        <p class="lead mb-4 ">As a self-taught professional I started studying programming on my own
+                            from home.
+                            <br>
+                            With my dedication to continuous learning and skill developmen i was hired by Capgemini, an
+                            international company that is a reference in the technology area.
+                            br
+                            Proficient in troubleshooting and time management,
+                            I have a unique perspective and a quick learning ability to adapt to the evolving landscape
+                            of technology.
+                        </p>
+                        <div class="button-container">
+                            <a class="btn btn-outline-caf0f8 btn-lg px-4 about-button" href="#sayHello">Say Hello</a>
+                            <!-- <a class="btn btn-outline-caf0f8 btn-lg px-4 about-button" href="#projects">Projects</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">André's </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main"
+                aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
+                    <!-- <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li> -->
+                    <li class="nav-item"><a href="#sayHello" class="nav-link">Say Hello</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="info" class="section information">
+        <div class="container">
+            <aside class="bg-colored">
+                <p>Name: André Rapela.</p>
+                <p>Location: Recife,PE,Brazil</p>
+                <p>Phone: (81) 99546-6520</p>
+                <p>E-mail:andre.d.q.rapela@gmail.com</p>
+            </aside>
+            <section id="info" class="section information">
+                <div class="container">
+                    <h1>Information & Resume</h1>
+
+
+                    <div class="container mt-3">
+                        <ul class="list-group">
+                            <h4>web development</h4>
+                            <li class="list-group-item">Angular </li>
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="container mt-3">
+                        <h4>Others Technologies</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Java </li>
+                            <li class="list-group-item">SpringBoot - basic </li>
+                            <li class="list-group-item">Python - basic </li>
+
+                        </ul>
+                    </div>
+                    <div class="container mt-3">
+                        <h4> Language </h4>
+                        <ul class="list-group">
+                            <li class="list-group-item"> English - intermediate </li>
+                            <li class="list-group-item"> Portuguese - Native Language </li>
+                            <li class="list-group-item">Spanish - intermediate </li>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+        </div>
+    </section>
+
+     <!-- <section id="projects" class="section">
+    <div class="container">
+        <h3>Projects</h3>     
+
+        <a href="/to-do-list.html">
+            <img  id="todoList" src="image_projects/Captura de tela 2024-04-08 113432.png" class="rounded float-right" alt="to-do-list-project">
+        </a>
+        
+            <h4><a href="/to-do-list.html">To Do List</a></h4>
+            <p>A to-do list with the unique feature of saving tasks in the browser's localStorage.</p>
+       
+    </div>
+</section>  -->
+
+
+    <section id="sayHello" class="section">
+        <div class="container">
+            <div class="row">
+            <div class="col-2">
+            <h2 >Say Hello</h2>
+            </div>
+            <div class="col-2" >
+                 <div class="flags">   
+                        <img src="image/brazil.png" alt="Brazil Flag" class="flag ">
+                        <img src="image/canada.png" alt="Canada Flag" class="flag flag-canada">
+                        <img src="image/spain.jpg" alt="Spain Flag" class="flag flag-spain">
+                </div>
+               
+            </div>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/andre.d.q.rapela@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="you@yourwebsite.com" required>
+                    <label for="message">Mensage:</label>
+                    <textarea name="message" type="text" class="form-control" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Submit Information</button>  
+                </div>
+            </form>
+            <div class="button-media">
+                <a class= "iconLinks" href="https://www.instagram.com/andrerapela/"><i class="fa-brands fa-instagram"></i></a>
+                <a class= "iconLinks" href=" https://www.facebook.com/andrerapela"><i class="fa-brands fa-square-facebook"></i></a>
+                <a class= "iconLinks" href=" https://www.linkedin.com/in/andrerapela/"><i class="fa-brands fa-linkedin"></i></a>
+                <a class= "iconLinks" href="https://github.com/AndreRapela"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    
+</section>
+
+<footer class="py-5 bh-dark text-secondary text-center">
+    
+        <div class="copyright">
+            <p>Copyright &copy; 2023| ANDRÉ RAPELA</p>
+        </div>
+    </footer>
+
+</body>
+</html>
